@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Prosto+One&display=swap"
+        rel="stylesheet">
+    <title>ТЗ Ламберт</title>
+</head>
+
+<body>
+    <header class="header header__primary">
+        <div class="container container__header">
+
+            <div class="header__logo">
+                <img src="/img/logo.png" alt="logo">
+                <h1 class="header__title">Институт запусков</h1>
+            </div>
+
+            <div class="login-widget">
+                <a href="#" class="entry">
+                    <img src="/img/person-fill.png" class="person" alt="user">
+                    <span class="login-text">Вход</span>
+                    <img src="/img/chevron-down.png" class="chevron" alt="chevron">
+                </a>
+            </div>
+
+        </div>
+
+    </header>
+
+    <main class="main main__primary">
+        <div class="container">
+            <h2 class="main__title main__title-mobile">Биржа вакансий и резюме</h2>
+
+            <div class="buttons-choices">
+                <button class="btn-vacancies" id="vacancies-btn">Вакансии</button>
+                <button class="btn-resume" id="resume-btn">Резюме</button>
+            </div>
+
+            <div class="search-container">
+                <div class="container">
+                    <form action="/search" method="get" class="search-form">
+                        <input type="text" name="query" class="search-input" placeholder="Услуга или специалист">
+                        <button type="submit" class="search-button">Найти</button>
+                    </form>
+                </div>
+            </div>
+            <div class="options__block">
+                <div class="container">
+                    <ul class="menu-items">
+                        <li><a href="#" class="menu-item">Копирайтер</a></li>
+                        <li><a href="#" class="menu-item">Создание гайдов</a></li>
+                        <li><a href="#" class="menu-item">Курьер</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="image-gallery" id="gallery">
+                    <div class="image-item">
+                        <img src="/img/R1.png" alt="" class="gallery-image" />
+                        <p class="image-caption">Копирайтер</p>
+                    </div>
+                    <div class="image-item">
+                        <img src="/img/R2.png" alt="" class="gallery-image" />
+                        <p class="image-caption">Механик</p>
+                    </div>
+                    <div class="image-item">
+                        <img src="/img/R3.png" alt="" class="gallery-image" />
+                        <p class="image-caption">Шеф-повар</p>
+                    </div>
+                    <div class="image-item">
+                        <img src="/img/R4.png" alt="" class="gallery-image" />
+                        <p class="image-caption">Адвокат</p>
+                    </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer footer__primary">
+        <div class="container">
+            <div class="footer__text footer__text-info">
+                <p class="footer__text footer__text-color">© 2023. Институт запусков</p>
+                <div class="footer__info">
+                    <p class="footer__text footer__text-style">Политика конфиденциальности</p>
+                    <p class="footer__text footer__text-space footer__text-style">Правовая информация</p>
+                </div>
+            </div>
+
+        </div>
+
+    </footer>
+<script src="/app/app.js"></script>
+</body>
+
+</html>

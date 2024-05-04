@@ -1,0 +1,464 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+body {
+    line-height: 1;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0) 41.46%), #eee7e1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+ol,
+ul {
+    list-style: none;
+}
+blockquote,
+q {
+    quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.prosto-one-regular {
+    font-family: "Prosto One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container {
+    width: 1270px;
+    margin: 0 auto;
+}
+
+/* Хэдер */
+
+.header {
+}
+.header__primary {
+    margin-top: 36px;
+}
+
+.container__header {
+    display: flex;
+    justify-content: space-between;
+}
+.header__logo {
+    display: flex;
+}
+
+.header__title {
+    width: 280px;
+    height: 31px;
+    font-family: "Prosto One";
+    font-weight: 400;
+    font-size: 25px;
+    color: #911016;
+    padding: 17px 0px 0px 16px;
+}
+
+.login-widget {
+    background-color: #fff;
+    border-radius: 20px;
+    width: 188px;
+    height: 60px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.entry {
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.person {
+    background-color: #a68144;
+    border-radius: 50%;
+    padding: 7px;
+}
+
+.login-text {
+    font-family: "Inter", sans-serif;
+}
+.chevron {
+    margin-left: 31px;
+}
+
+/* Основная страница */
+
+.main {
+    margin-top: 125px;
+}
+.main__primary {
+}
+.main__title {
+    width: 816px;
+    height: 81px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 62px;
+    color: #364670;
+    margin-bottom: 28px;
+}
+.main__title-mobile {
+}
+
+/* Кнопки над формой */
+.buttons-choices {
+    margin-bottom: 17px;
+}
+.btn-vacancies {
+    color: #fff;
+    width: 97px;
+    height: 39px;
+    padding: 10px;
+    background: #911016;
+    border-radius: 14px;
+    border: none;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+.btn-resume {
+    width: 64px;
+    height: 19px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #911016;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+/* Форма поиска */
+
+.search-container {
+    display: flex;
+    justify-content: center;
+}
+
+.search-form {
+    display: flex;
+    width: 1265px;
+    height: 70px;
+}
+
+.search-input {
+    flex-grow: 1;
+    margin-right: 24px;
+    border: 1.5px solid #a68144;
+    border-radius: 14px;
+    height: 70px;
+    padding: 0 10px;
+    font-size: 1rem;
+}
+
+.search-button {
+    font-family: "Inter";
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 500;
+    width: 188px;
+    height: 70px;
+    border: none;
+    border-radius: 14px;
+    background-color: #911016;
+    color: #fff;
+    cursor: pointer;
+}
+
+.search-input,
+.search-button {
+    outline: none;
+}
+
+.search-button:hover {
+    background-color: #a12026;
+}
+
+.btn-vacancies:hover {
+    background-color: #a12026;
+}
+
+.btn-resume:hover {
+    color: #a12026;
+}
+
+.options__block {
+    margin-top: 16px;
+}
+
+.menu-items {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+}
+
+.menu-item {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    background: #faf8f6;
+    border-radius: 100px;
+    padding: 4px 12px;
+    height: 36px;
+    line-height: 28px;
+    box-sizing: border-box;
+    cursor: default;
+}
+
+.menu-item:hover {
+    background-color: #e7e4e1;
+}
+
+/* блок с картинками */
+
+.image-gallery {
+    margin-top: 115px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.image-item {
+    width: 300px;
+    margin-bottom: 21px;
+}
+
+.gallery-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.image-caption {
+    margin-top: 21px;
+}
+
+@media (max-width: 767px) {
+    .main {
+        margin-top: 30px;
+    }
+
+    .container {
+    }
+
+    .container__header {
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+    }
+
+    .header__logo {
+        margin-bottom: 20px;
+    }
+
+    .main__title-mobile {
+        font-size: 26px;
+        margin: 0 10px;
+    }
+
+    .buttons-choices {
+        margin-left: 10px;
+    }
+
+    .search-form {
+        width: 370px;
+        margin-left: 10px;
+    }
+
+    .menu-items {
+        margin-left: 10px;
+    }
+
+    .image-gallery {
+        flex-direction: column;
+        gap: 0;
+        margin-left: 40px;
+    }
+
+    .image-item {
+        margin-bottom: 15px;
+    }
+
+    .footer {
+        margin-left: 90px;
+    }
+    .footer__text {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 10px;
+    }
+
+    .footer__info {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .footer__text-space {
+        margin-left: 0;
+    }
+}
+
+/* Футер */
+
+.footer {
+    margin-top: 115px;
+}
+.footer__primary {
+}
+
+.footer__text {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.footer__text-color {
+    color: #948171;
+}
+
+.footer__text-info {
+}
+.footer__info {
+    display: flex;
+}
+
+.footer__text-space {
+    margin-left: 20px;
+}
+
+.footer__text-style {
+    opacity: 0.6;
+    color: #911016;
+}
